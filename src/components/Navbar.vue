@@ -2,7 +2,7 @@
     <div id="nav">
       <div id="logo-warren">
         <router-link to="/" id="logo-url">
-          <img src="/img/logoWarren.png" alt="alt" id="logo">
+          <img src="/img/logoWarren.png" id="logo">
         </router-link> 
         <a>Warren</a>
       </div>  
@@ -24,7 +24,6 @@
 
 export default {
    name: "Navbar",
-   props: ["alt"]
 }
 </script>
 
